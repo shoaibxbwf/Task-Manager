@@ -1,71 +1,56 @@
-# Task Manager App
+# 📝 Tasky — A Modern Task Management App
 
-A modern task management application built with React and TailwindCSS.
+**Tasky** is a sleek and modern task management application built with **React** and **TailwindCSS**. Designed for productivity lovers, Tasky makes managing your day-to-day tasks efficient, intuitive, and even fun.
 
-## Features
+![App Preview](assets/preview.png)
 
-- Create, edit, and delete tasks
-- Set task priorities and due dates
-- Filter tasks by various criteria
-- Dark/Light theme support
-- Task categories and tags
-- Responsive design
-- Local storage persistence
+---
 
-## Live Demo
+## ✨ Features
 
-You can view the live demo [here](https://[your-github-username].github.io/task-manager/)
+- ✅ **Create and Manage Tasks**
+- 📅 **Set Due Dates and Priorities**
+- 🔍 **Filter by Status, Priority, and Tags**
+- 🌗 **Dark/Light Theme Support**
+- 🏷️ **Categorize Tasks with Tags**
+- 📱 **Fully Responsive Design**
+- 💾 **Local Storage Data Persistence**
 
-## Installation & Deployment
+---
 
-1. Clone the repository:
-   bash
-   git clone https://github.com/[your-github-username]/task-manager.git
-   cd task-manager
-   
+## 🌐 Live Demo
 
-2. Open `index.html` in your browser to run locally
+Take it for a spin:  
+🔗 [Live Demo](https://shoaibxbwf.github.io/Task-Manager/)  
 
-3. To deploy to GitHub Pages:
-   - Go to your repository settings
-   - Navigate to "Pages" section
-   - Select "main" branch as source
-   - Save the changes
+---
 
-## Project Structure
+## 🤝 Contributing
 
+Have ideas or improvements? Contributions are welcome!
 
-task-manager/
-├── components/
-│   ├── TaskItem.js
-│   ├── TaskList.js
-│   ├── TaskForm.js
-│   ├── TaskFilter.js
-│   └── Navbar.js
-├── context/
-│   ├── ThemeContext.js
-│   └── TaskContext.js
-├── pages/
-│   ├── Home.js
-│   └── Settings.js
-├── utils/
-│   ├── storage.js
-│   └── dateUtils.js
-├── styles/
-│   ├── main.css
-│   └── components.css
-├── index.html
-└── app.js
+1. Fork the repository  
+2. Create a new branch: `git checkout -b feature/YourFeature`  
+3. Commit your changes: `git commit -m "Add YourFeature"`  
+4. Push your branch: `git push origin feature/YourFeature`  
+5. Open a Pull Request and let's collaborate 🚀
+
+---
+
+## 📄 License
+
+This project is licensed under the **MIT License**.
+But This is free of charge you can copy/clone for free.
+See the [LICENSE](LICENSE) file for full details.
+
+---
+
+## ## 👨‍💻 Developed By
+
+**Mohammad Amir Shoaib**  
+💻 BCA Student | Front-End Web Developer  
+📧 astechnical112@gmail.com  
+🌐 [GitHub: @shoaibxbwf](https://github.com/shoaibxbwf)
 
 
-## Contributing
-
-1. Fork the repository
-2. Create your feature branch (`git checkout -b feature/AmazingFeature`)
-3. Commit your changes (`git commit -m 'Add some AmazingFeature'`)
-4. Push to the branch (`git push origin feature/AmazingFeature`)
-5. Open a Pull Request
-
-## License
-
-This project is licensed under the MIT License - see the LICENSE file for details.
+> Built with ❤️ using React & TailwindCSS
