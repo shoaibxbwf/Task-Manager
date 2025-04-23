@@ -1,0 +1,237 @@
+.task-item {
+    transition: all 0.3s ease;
+}
+
+.task-item:hover {
+    transform: translateX(5px);
+}
+
+.priority-high {
+    border-left: 4px solid #ef4444;
+}
+
+.priority-medium {
+    border-left: 4px solid #f59e0b;
+}
+
+.priority-low {
+    border-left: 4px solid #10b981;
+}
+
+.completed {
+    opacity: 0.6;
+}
+
+.navbar {
+    backdrop-filter: blur(10px);
+}
+
+.settings-card {
+    background: rgba(255, 255, 255, 0.1);
+    backdrop-filter: blur(10px);
+}
+
+/* Tab Styles */
+.tab-all {
+    background-color: #e0f2fe;
+    color: #0369a1;
+}
+
+.dark .tab-all {
+    background-color: #0c4a6e;
+    color: #e0f2fe;
+}
+
+.tab-today {
+    background-color: #fef3c7;
+    color: #92400e;
+}
+
+.dark .tab-today {
+    background-color: #78350f;
+    color: #fef3c7;
+}
+
+.tab-upcoming {
+    background-color: #dcfce7;
+    color: #166534;
+}
+
+.dark .tab-upcoming {
+    background-color: #14532d;
+    color: #dcfce7;
+}
+
+.tab-completed {
+    background-color: #f3e8ff;
+    color: #6b21a8;
+}
+
+.dark .tab-completed {
+    background-color: #581c87;
+    color: #f3e8ff;
+}
+
+.tab-pinned {
+    background-color: #ffe4e6;
+    color: #9f1239;
+}
+
+.dark .tab-pinned {
+    background-color: #881337;
+    color: #ffe4e6;
+}
+
+.tab-active {
+    filter: brightness(0.95);
+    transform: translateY(1px);
+}
+
+/* Form Field Styles */
+.form-field {
+    border: 2px solid transparent;
+    transition: all 0.3s ease;
+}
+
+.form-field-title {
+    border-color: #93c5fd;
+    background-color: #eff6ff;
+    color: #1e40af;
+}
+
+.dark .form-field-title {
+    background-color: #1e3a8a;
+    color: #eff6ff;
+    border-color: #3b82f6;
+}
+
+.form-field-description {
+    border-color: #a7f3d0;
+    background-color: #f0fdf4;
+    color: #166534;
+}
+
+.dark .form-field-description {
+    background-color: #064e3b;
+    color: #f0fdf4;
+    border-color: #34d399;
+}
+
+.form-field-date {
+    border-color: #fcd34d;
+    background-color: #fefce8;
+    color: #92400e;
+}
+
+.dark .form-field-date {
+    background-color: #78350f;
+    color: #fefce8;
+    border-color: #fbbf24;
+}
+
+.form-field-time {
+    border-color: #c4b5fd;
+    background-color: #f5f3ff;
+    color: #5b21b6;
+}
+
+.dark .form-field-time {
+    background-color: #4c1d95;
+    color: #f5f3ff;
+    border-color: #8b5cf6;
+}
+
+.form-field-priority {
+    border-color: #fdba74;
+    background-color: #fff7ed;
+    color: #9a3412;
+}
+
+.dark .form-field-priority {
+    background-color: #7c2d12;
+    color: #fff7ed;
+    border-color: #fb923c;
+}
+
+.form-field-tags {
+    border-color: #f9a8d4;
+    background-color: #fdf2f8;
+    color: #9d174d;
+}
+
+.dark .form-field-tags {
+    background-color: #831843;
+    color: #fdf2f8;
+    border-color: #ec4899;
+}
+
+/* Time Picker Custom Styles */
+.time-picker-container {
+    position: relative;
+}
+
+.time-picker-dropdown {
+    position: absolute;
+    top: 100%;
+    left: 0;
+    right: 0;
+    background: white;
+    border: 1px solid #e5e7eb;
+    border-radius: 0.5rem;
+    box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1);
+    z-index: 50;
+    max-height: 300px;
+    overflow-y: auto;
+}
+
+.dark .time-picker-dropdown {
+    background: #1f2937;
+    border-color: #374151;
+}
+
+.time-picker-hour-group {
+    border-bottom: 1px solid #e5e7eb;
+}
+
+.dark .time-picker-hour-group {
+    border-color: #374151;
+}
+
+.time-picker-option {
+    padding: 0.5rem;
+    cursor: pointer;
+    transition: all 0.2s ease;
+    font-size: 0.875rem;
+}
+
+.time-picker-option:hover {
+    background-color: #f3f4f6;
+}
+
+.dark .time-picker-option:hover {
+    background-color: #374151;
+}
+
+/* Option Buttons */
+.option-button {
+    padding: 0.5rem 1rem;
+    border-radius: 0.5rem;
+    border: 2px solid transparent;
+    transition: all 0.2s ease;
+    font-weight: 500;
+}
+
+.option-button.selected {
+    background-color: #2563eb;
+    color: white;
+}
+
+.dark .option-button {
+    background-color: #1f2937;
+    color: #e5e7eb;
+}
+
+.dark .option-button.selected {
+    background-color: #3b82f6;
+    color: white;
+}
